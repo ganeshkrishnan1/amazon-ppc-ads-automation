@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<base href="./">
+	<!-- Meta Data -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>AiHello: Amazon PPC Ads Automation Software</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/fav/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/fav/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/fav/favicon-16x16.png">
+	<link rel="mask-icon" href="assets/img/fav/safari-pinned-tab.svg" color="#fa7070">
+
+	<meta name="msapplication-TileColor" content="#fa7070">
+	<meta name="theme-color" content="#fa7070">
+	<meta name="description" content="Amazon PPC Ads Automation Software to help manage your Sponsored Products, Display and Brand ads for FBA sellers and Amazon Ad Agencies">
+	<meta name="keywords" content="Amazon PPC Ads Software, PPC Automation, Amazon Ads Software, Sponsored Ads Software, Sponsored Display Ads, Sponsored Brands Ads">
+
+	<!-- Dependency Styles -->
+
+	<!-- Site Stylesheet -->
+	<!-- <link rel="stylesheet" href="assets/css/styles.pure.css" type="text/css"> -->
+
+	<link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/fontawesome/css/all.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/swiper/css/swiper.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/wow/css/animate.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/magnific-popup/css/magnific-popup.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/components-elegant-icons/css/elegant-icons.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/simple-line-icons/css/simple-line-icons.css" type="text/css">
+
+
+
+	<!-- Site Stylesheet -->
+	<link rel="stylesheet" href="assets/css/app.css" type="text/css">
+
+	<!-- Google Web Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&family=Satisfy&display=swap" rel="stylesheet">
+
+
+
+	
+
+	<!-- <script>
+		(function (w, d, s, l, i) {
+		  w[l] = w[l] || [];
+		  w[l].push({
+			'gtm.start': new Date().getTime(),
+			event: 'gtm.js'
+		  });
+		  var f = d.getElementsByTagName(s)[0],
+			j = d.createElement(s),
+			dl = l != 'dataLayer' ? '&l=' + l : '';
+		  j.async = true;
+		  j.src =
+			'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+		  f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-PNMF52G');
+	
+	  </script> -->
+	<!-- End Google Tag Manager -->
+
+		<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "SoftwareApplication",
+			  "name": "AiHello AutoPilot: Amazon PPC Automation Software.",
+			  "applicationCategory": "https://schema.org/SoftwareApplication",
+			  "aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.9",
+				"ratingCount": "1083"
+			  },
+	 "offers": {
+		"@type": "AggregateOffer",
+		   "lowPrice": "39.00",
+	"highPrice": "99.00",
+			"priceCurrency": "USD"
+		  }
+	
+			
+			}
+		</script>
+	<!-- <script src="https://www.googleoptimize.com/optimize.js?id=GTM-W5V9GVK"></script> -->
+
+	<style>
+		/* @import "lesshat"; */
+
+		.ba-slider {
+			position: relative;
+			overflow: hidden;
+		}
+
+		.ba-slider img {
+			width: 100%;
+			display: block;
+		}
+
+		.resize {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 50%;
+			overflow: hidden;
+		}
+
+
+		.handle {
+			/* Thin line seperator */
+			position: absolute;
+			left: 50%;
+			top: 0;
+			bottom: 0;
+			width: 4px;
+			margin-left: -2px;
+
+			background: rgba(0, 0, 0, .5);
+			cursor: ew-resize;
+		}
+
+		.handle:after {
+			/* Big orange knob  */
+			position: absolute;
+			top: 50%;
+			width: 64px;
+			height: 64px;
+			margin: -32px 0 0 -32px;
+
+			content: '\21d4';
+			color: white;
+			font-weight: bold;
+			font-size: 36px;
+			text-align: center;
+			line-height: 64px;
+
+			background: #ffb800;
+			/* @orange */
+			border: 1px solid #e6a600;
+			/* darken(@orange, 5%) */
+			border-radius: 50%;
+			transition: all 0.3s ease;
+			box-shadow:
+				0 2px 6px rgba(0, 0, 0, .3),
+				inset 0 2px 0 rgba(255, 255, 255, .5),
+				inset 0 60px 50px -30px #ffd466;
+			/* lighten(@orange, 20%)*/
+		}
+
+		.draggable:after {
+			width: 48px;
+			height: 48px;
+			margin: -24px 0 0 -24px;
+			line-height: 48px;
+			font-size: 30px;
+		}
+
+		img.slider {
+			max-width: none;
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body id="home-version-1" class="home-version-4" data-style="default">
+
+	<a href="#main_content" data-type="section-switch" class="return-to-top">
+		<i class="fa fa-chevron-up"></i>
+	</a>
+	<div class="page-loader">
+		<div class="loader">
+			<!-- Loader -->
+			<div class="blobs">
+				<div class="blob-center"></div>
+				<div class="blob"></div>
+				<div class="blob"></div>
+				<div class="blob"></div>
+				<div class="blob"></div>
+				<div class="blob"></div>
+				<div class="blob"></div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+				<defs>
+					<filter id="goo">
+						<feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+						<feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+						<feBlend in="SourceGraphic" in2="goo" />
+					</filter>
+				</defs>
+			</svg>
+
+		</div>
+	</div><!-- /.page-loader -->
+
+	<div id="main_content">
+
+
+		<header class="site-header header_trans-fixed" data-top="992">
+			<div class="container">
+				<div class="header-inner">
+					<div class="toggle-menu">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</div>
+			
+					<div class="site-mobile-logo">
+						<a href="index.html" class="logo">
+							<img src="assets/img/logo.png" alt="AiHello AutoPilot Logo" class="main-logo">
+							<img src="assets/img/logo.png" alt="AiHello AutoPilot Logo" class="sticky-logo">
+						</a>
+					</div>
+
+					<nav class="site-nav">
+						<div class="close-menu">
+							<span>Close</span>
+							<i class="ei ei-icon_close"></i>
+						</div>
+
+						<div class="site-logo">
+							<a href="/" class="logo">
+								<img src="assets/img/logo.png" alt="aihello amazon ppc autopilot logo"
+									class="main-logo">
+								<img src="assets/img/logo.png" alt="aihello amazon ppc services autopilot logo"
+									class="sticky-logo">
+							</a>
+						</div>
+						<!-- /.site-logo -->
+
+						<div class="menu-wrapper" data-top="992">
+							<ul class="site-main-menu">
+								<li>
+									<a href="/">Home</a>
+
+								</li>
+
+								<li class="menu-item-has-children">
+
+									<a target="_blank" href="/resources/">Resources</a>
+									<ul class="sub-menu">
+										<li><a target="_blank"
+												href="/landing/amazon_ppc_automate/autopilot.html">AutoPilot
+												Documentation</a></li>
+										<li><a target="_blank" href="/resources/">Blog</a></li>
+										<li><a target="_blank"
+												href="https://www.youtube.com/channel/UCVASNUlKjKHGhOhu8SXxB5Q">YouTube
+												Channel</a></li>
+									</ul>
+								</li>
+								<li class="menu-item-has-children">
+									<a href="#">Features</a>
+
+									<ul class="sub-menu">
+										<li><a target="_blank"
+												href="/landing/ads_campaign_automate/ads_automate.html">AutoPilot</a>
+										</li>
+
+						
+										<li class="menu-item-has-children">
+											<a href="./pages/app-store">AiHello Apps</a>
+											<ul class="sub-menu">
+												<li><a target="_blank"
+														href="https://sellercentral.amazon.com/apps/store/dp/amzn1.sellerapps.app.5d5ca2a9-e069-4ec1-9dd7-ea35b0550d4c">AiHello
+														Amazon App US</a></li>
+												<li><a target="_blank"
+														href="https://sellercentral.amazon.co.uk/apps/store/dp/amzn1.sellerapps.app.5d5ca2a9-e069-4ec1-9dd7-ea35b0550d4c">AiHello
+														Amazon App Europe</a></li>
+												<li><a target="_blank"
+														href="https://sellercentral.amazon.sg/apps/store/dp/amzn1.sellerapps.app.5d5ca2a9-e069-4ec1-9dd7-ea35b0550d4c">AiHello
+														Amazon App Far East</a></li>
+												<li><a target="_blank"
+														href="https://sellercentral.amazon.com/apps/store/dp/amzn1.sellerapps.app.928dbbf8-4345-4200-b47b-c8db09d40496">AiHello
+														Amazon Smart Fulfillment</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+
+								<li><a href="./pages/contact-us">Contact</a></li>
+								<li><a href="/account/login">Login</a></li>
+							</ul>
+
+							<div class="nav-right">
+								<!-- <a href="/account/login" >Login</a> -->
+								<a href="/account/register" class="nav-btn">Register</a>
+							</div>
+						</div>
+						<!-- /.menu-wrapper -->
+
+					</nav><!-- /.site-nav -->
+				</div><!-- /.header-inner -->
+			</div><!-- /.container -->
+		</header><!-- /.site-header -->
+
+
+		<section class="banner banner-one">
+			<div class="circle-shape" data-parallax='{"y" : 230}'>
+				<img src="media/banner/circle-shape.png" alt="ppc automation circle background">
+			</div>
+			<div class="container">
+				<div class="banner-content-wrap">
+					<div class="row align-items-center">
+						<div class="col-lg-6">
+							<div class="banner-content">
+								<h1 class="banner-title wow pixFadeUp" data-wow-delay="0.3s">
+									Accelerate Growth<br>
+									of Your <br> <span>
+										E-commerce Brand</span>
+
+								</h1>
+
+								<p class="description wow pixFadeUp" data-wow-delay="0.5s">
+									Optimize your Amazon PPC campaigns with AiHello AutoPilot Full Automation
+								</p>
+
+								<a href="/account/register" class="pxs-btn banner-btn wow pixFadeUp"
+									data-wow-delay="0.6s">Get Started</a>
+							</div><!-- /.banner-content -->
+						</div><!-- /.col-lg-6 -->
+
+						<div class="col-lg-6">
+							<div class="about-video-wrapper">
+								<div class="popup-videos wow pixFadeRight">
+									<div class="video-thumbnail">
+										<img src="media/banner/homebanner.jpg" alt="Amazon PPC Ads Automation Software">
+
+
+									</div>
+									<!-- /.video-thumbnail -->
+
+									<a href="https://www.youtube.com/watch?v=yEIb5C8vYv8"
+										class="play-btn popup-video large">
+										<i class="ei ei-arrow_triangle-right"></i></a>
+								</div>
+								<!-- /.popup-video -->
+							</div>
+
+						</div><!-- /.col-lg-6 -->
+					</div><!-- /.row -->
+				</div><!-- /.banner-content-wrap -->
+			</div><!-- /.container -->
+
+			<div class="bg-shape">
+				<img src="media/banner/shape-bg.png" alt="ppc software tool background image">
+			</div>
+		</section><!-- /.banner banner-one -->
+
+		<!--===========================-->
+		<!--=         Feature         =-->
+		<!--===========================-->
+		<section class="featured">
+			<div class="container">
+				<div class="section-title text-center wow pixFade">
+					<h3 class="sub-title">For Sellers, Private Labels/Brands & Agencies</h3>
+					<h2 class="title">Zero Configuration, Full Automation. Simply More Sales</h2>
+				</div><!-- /.section-title -->
+
+				<div class="row">
+					<div class="col-md-4">
+						<div class="saaspik-icon-box-wrapper style-one wow pixFadeLeft" data-wow-delay="0.3s">
+							<div class="saaspik-icon-box-icon">
+								<img src="media/home/data_driven_optimization.png"
+									alt="Data Driven Optimzation For Amazon PPC Services Revenue Growth">
+							</div>
+							<div class="pixsass-icon-box-content">
+								<h3 class="pixsass-icon-box-title">Data Driven<br> Optimization</h3>
+							</div>
+						</div><!-- /.pixsass-box style-one -->
+					</div><!-- /.col-md-4 -->
+
+					<div class="col-md-4">
+						<div class="saaspik-icon-box-wrapper style-one wow pixFadeLeft" data-wow-delay="0.5s">
+							<div class="saaspik-icon-box-icon">
+								<img src="media/home/amazon_ppc_full_automation.png"
+									alt="Full First Class Automation For Amazon PPC To Reduce ACoS">
+							</div>
+							<div class="pixsass-icon-box-content">
+								<h3 class="pixsass-icon-box-title">First Class <br>Automation</h3>
+							</div>
+						</div><!-- /.pixsass-box style-one -->
+					</div><!-- /.col-md-4 -->
+
+					<div class="col-md-4">
+						<div class="saaspik-icon-box-wrapper style-one wow pixFadeLeft" data-wow-delay="0.7s">
+							<div class="saaspik-icon-box-icon">
+								<img src="media/home/amzon_ppc_global_markets.png"
+									alt="Global Amazon Marketplaces Including US, Canada, Germany, Japan, Australia">
+							</div>
+							<div class="pixsass-icon-box-content">
+								<h3 class="pixsass-icon-box-title">Global Marketplaces <br>Supported</h3>
+							</div>
+						</div><!-- /.pixsass-box style-one -->
+					</div><!-- /.col-md-4 -->
+				</div><!-- /.row -->
+
+
+			</div><!-- /.container -->
+		</section><!-- /.featured -->
+
+
+		<section class="editor-design">
+			<div class="container">
+				<div class="row">
+
+					<div class="editure-feature-image wow pixFadeRight">
+						<div class="image-one" data-parallax='{"x" : 30}'>
+							<img src="media/home/amazon_advertising_ppc_services_acos_sales_revenues_growth.jpg"
+								class="wow pixFadeRight" data-wow-delay="0.3s"
+								alt="Amazon AMS Ads Services For Sales Growth and reduce ACoS">
+						</div>
+						<div class="image-two">
+							<div class="image-two-inner" data-parallax='{"x" : -30}'>
+								<img src="media/home/amazon_sponsored_products_ams_ppc_solution.jpg"
+									class="wow pixFadeLeft" data-wow-delay="0.5s"
+									alt="Amazon Sponsored Products PPC Solution Automation Visual Chart Logs">
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-lg-6 offset-lg-6">
+						<div class="editor-content">
+							<div class="section-title style-two">
+								<h2 class="title wow pixFadeUp" data-wow-delay="0.3s">
+									Automate Amazon PPC <br />
+									For Your Business
+								</h2>
+
+								<p class="wow pixFadeUp" data-wow-delay="0.5s">
+									Put your business on cruise control.
+								</p>
+							</div>
+
+							<div class="description wow pixFadeUp" data-wow-delay="0.7s">
+								<p>
+									Amazon Ads Automation to help grow your revenues, reduce work hours spent on ads
+									management and decrease your ad costs.
+									Take complete control of your e-commerce marketing on Amazon.
+
+								</p>
+
+								<a href="/account/register" class="pix-btn wow pixFadeUp" data-wow-delay="0.9s">Get
+									Started</a>
+							</div>
+						</div><!-- /.editor-content -->
+					</div><!-- /.col-lg-6 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+			<div class="shape-bg">
+				<img src="media/background/shape_bg.png" class="wow fadeInLeft" alt="amazon sponsored ads background image">
+			</div>
+		</section><!-- /.editor-design -->
+
+
+		<section class="genera-informes">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12">
+						<div class="slogan" style="">
+							<h2 class="text-center">Amazon PPC Automation
+								<strong>Simplified</strong>
+							</h2>
+						</div>
+
+					</div>
+
+					<div class="col-6">
+						<h3>Without AiHello </h3>
+					</div>
+					<div class="col-6">
+						<h3>With AiHello </h3>
+					</div>
+					<div class="col-md-12">
+
+						<div class="ba-slider">
+
+							<img src="https://i.imgur.com/eNPOUVc.jpg" class="slider" alt="With AiHello PPC Automation">
+							<div class="resize">
+								<img src="https://i.imgur.com/vxnFUKe.jpg" class="slider"
+									alt="Other Software Automation">
+							</div>
+							<span class="handle"></span>
+						</div>
+
+					</div>
+
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+
+			<div class="shape-bg">
+				<img src="media/background/shape.png" class="wow fadeInRight" alt="amazon ppc agency software for sponsored products">
+			</div>
+		</section>
+
+		<section class="revolutionize">
+			<div class="bg-angle"></div>
+			<div class="container">
+				<div class="section-title dark-title text-center">
+					<h3 class="sub-title wow pixFadeUp">AiHello AutoPilot</h3>
+					<h2 class="title wow pixFadeUp" data-wow-delay="0.3s">
+						Automation to Increase Sales and Reduce Ad costs
+					</h2>
+				</div>
+
+				<div id="pix-tabs" class="wow pixFadeUp" data-wow-delay="0.5s">
+					<ul id="pix-tabs-nav">
+						<li><a href="#tab1">Automate Amazon Ads </a></li>
+						<li><a href="#tab2">Watch it in action </a></li>
+						<li><a href="#tab3">Comprehensive Reports</a></li>
+						<li><a href="#tab4">All Amazon Countries Supported</a></li>
+					</ul> 
+
+					<div id="pix-tabs-content">
+						<div id="tab1" class="content">
+							<img src="https://i.imgur.com/Ds3RgP2.jpg" alt="Amazon PPC ads strategy to automated ads">
+
+							<div class="shape-shadow"></div>
+						</div>
+						<div id="tab2" class="content">
+							<img src="https://i.imgur.com/Fk3KTRb.jpg" alt="amazon ppc management in action for sponsored display">
+							<div class="shape-shadow"></div>
+						</div>
+						<div id="tab3" class="content">
+							<img src="https://i.imgur.com/jfMmPFK.jpg" alt="ppc automation software for sponsored brands and videos">
+							<div class="shape-shadow"></div>
+						</div>
+
+						<div id="tab4" class="content">
+							<img src="https://i.imgur.com/q6e9Pxl.jpg" alt="amazon marketing service for ads and amazon acos optimization">
+							<div class="shape-shadow"></div>
+						</div>
+					</div> <!-- tabs-content -->
+				</div> <!-- Tabs -->
+			</div><!-- /.container -->
+		</section><!-- /.revolutionize -->
+
+		<!--===========================-->
+		<!--=         Service         =-->
+		<!--===========================-->
+		<section class="featured-two">
+			<div class="container">
+				<div class="section-title text-center">
+					<h3 class="sub-title wow pixFadeUp">Supercharge your Amazon Sales </h3>
+					<h2 class="title wow pixFadeUp" data-wow-delay="0.2s">More Features To Help You Scale Up</h2>
+				</div><!-- /.section-title -->
+
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="saaspik-icon-box-wrapper style-two wow pixFadeRight" data-wow-delay="0.4s">
+							<div class="saaspik-icon-box-icon">
+								<img src="media/feature/ppc_automation_save_time.png" alt="save time managing amazon ppc ads">
+							</div>
+							<div class="pixsass-icon-box-content">
+								<h3 class="pixsass-icon-box-title">Save Time </h3>
+								<p>
+									Get up and running with one-touch full PPC automation in less than 3 minutes.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="saaspik-icon-box-wrapper style-two wow pixFadeRight" data-wow-delay="0.5s">
+							<div class="saaspik-icon-box-icon">
+								<img src="media/feature/seller_tool_increase_revenues.png" alt="increase revenues by automating ppc">
+							</div>
+							<div class="pixsass-icon-box-content">
+								<h3 class="pixsass-icon-box-title">Increase sales and revenues</h3>
+
+								<p>
+									24x7 Keywords Automation. Automatically add competitor keywords. Automated placement
+									boosts.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="saaspik-icon-box-wrapper style-two wow pixFadeRight" data-wow-delay="0.6s">
+							<div class="saaspik-icon-box-icon">
+								<img src="media/feature/amazon_reduce_acos_software.png" alt="reduce ACOS on Amazon Ads">
+							</div>
+							<div class="pixsass-icon-box-content">
+								<h3 class="pixsass-icon-box-title"> Save costs </h3>
+								<p>
+								Amazon PPC Automation software to reduce your Amazon Ad Spend ACOS significantly.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="saaspik-icon-box-wrapper style-two wow pixFadeRight" data-wow-delay="0.7s">
+							<div class="saaspik-icon-box-icon">
+								<img src="media/feature/automated_dayparting.png" alt="automatically increase and decrease bids by peak and off peak times">
+							</div>
+							<div class="pixsass-icon-box-content">
+								<h3 class="pixsass-icon-box-title"> Automated Day-parting </h3>
+								<p>
+									Automatically reduce bids during off-peak hours and boost bids during peak times.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="saaspik-icon-box-wrapper style-two wow pixFadeRight" data-wow-delay="0.8s">
+							<div class="saaspik-icon-box-icon">
+								<img src="media/feature/visualize_ai_bids_optimization.png" alt="visually analyze AI actions and recommendations">
+							</div>
+							<div class="pixsass-icon-box-content">
+								<h3 class="pixsass-icon-box-title">Visualize changes </h3>
+								<p>
+									Autopilot logs and charts to help you see how our AI is optimizing bids and adding keywords.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="saaspik-icon-box-wrapper style-two wow pixFadeRight" data-wow-delay="0.9s">
+							<div class="saaspik-icon-box-icon">
+								<img src="media/feature/effortless_ppc_amazon_software.png" alt="one touch PPC automation for efortless amazon seller tool">
+							</div>
+							<div class="pixsass-icon-box-content">
+								<h3 class="pixsass-icon-box-title">Effortless </h3>
+								<p>
+									Bulk create campaigns. Reduce workload by 99%. Handles all languages for all marketplaces automatically.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="testimonials swiper-init">
+			<div class="container">
+				<div class="section-title text-center">
+					<h3 class="sub-title wow pixFadeUp">Testimonial</h3>
+					<h2 class="title wow pixFadeUp" data-wow-delay="0.3s">What our clients say about us</h2>
+				</div>
+
+				<div class="testimonial-wrapper wow pixFadeUp" data-wow-delay="0.5s">
+					<div class="swiper-container" id="testimonial" data-speed="700" data-autoplay="5000">
+
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="testimonial">
+									<div class="single-bio-thumb">
+										<img src="media/testimonial/shoes.png" alt="testimonial to reduce amazon acos and amazon marketing agency">
+									</div>
+
+
+									<div class="testimonial-content">
+										<p>"I just didn't have enough time to manage my amazon ppc ads everyday. With
+											growing number of skus even an ad agency would find it
+											impossible to optimize our thousands of ad groups and thousands of keywords.
+											AiHello AutoPilot made is all possible and I am a big believer in automation
+											now "</p>
+									</div>
+
+									<div class="bio-info">
+										<h3 class="name">Michelle K. </h3>
+										<span class="job">Sells shoes on Shopify and Amazon in the US + Canada</span>
+									</div>
+
+
+								</div>
+
+							</div>
+
+							<div class="swiper-slide">
+								<div class="testimonial">
+									<div class="single-bio-thumb">
+										<img src="media/testimonial/decor.png" alt="amazon advertising testimonial for automating ads and reduce acos">
+									</div>
+									
+
+
+									<div class="testimonial-content">
+										<p>"To say that we are happy is an understatement! I set my campaigns on
+											AutoPilot
+											and I get daily reports on how it's performing via my email. Now I am focus
+											on real business issues instead of the mind numbing, boring Amazon PPC tasks"</p>
+									</div>
+									
+
+									<div class="bio-info">
+										<h3 class="name">Peter G.</h3>
+										<span class="job">Sells home decor on Amazon in the US</span>
+									</div>
+									<!-- /.bio-info -->
+								</div>
+								<!-- /.testimonial -->
+							</div>
+
+							<div class="swiper-slide">
+								<div class="testimonial">
+									<div class="single-bio-thumb">
+										<img src="media/testimonial/apparel.png" alt="amazon ads testimonial for high ctr and high cvr">
+									</div>
+									<!-- /.single-bio-thumb -->
+
+
+									<div class="testimonial-content">
+										<p>"Apparel is fast moving, high turnover inventory and we have to be ahead of
+											our competitors to rank well and sell well.
+											After losing a significant chunk of profits and failed ventures with Ad
+											Agencies, we turned to AiHello for PPC Automation.
+											And here we are: Acos within target, 3x revenues and 15% lower ACoS"</p>
+									</div>
+									<!-- /.testimonial-content -->
+
+									<div class="bio-info">
+										<h3 class="name">Jen T.</h3>
+										<span class="job">Sells apparel on Amazon + Woocommerce in Europe</span>
+									</div>
+									<!-- /.bio-info -->
+								</div>
+								
+							</div>
+
+						</div><!-- /.swiper-wrapper -->
+
+
+					</div><!-- /.swiper-container -->
+					<div class="shape-shadow"></div>
+					<div class="slider-nav wow pixFadeUp" data-wow-delay="0.3s">
+						<div id="slide-prev" class="swiper-button-prev">
+							<i class="ei ei-arrow_left"></i>
+						</div>
+						<div id="slide-next" class=" swiper-button-next">
+							<i class="ei ei-arrow_right"></i>
+						</div>
+					</div>
+				</div>
+				<!-- /.testimonial-wrapper -->
+			</div>
+			<!-- /.container -->
+
+			<div class="scroll-circle wow pixFadeDown">
+				<img src="media/background/circle9.png" data-parallax='{"y" : 250}' alt="amazon sponsored products display brands ads background">
+			</div>
+		</section>
+
+
+		<section class="pricing">
+			<div class="container">
+				<div class="section-title text-center">
+					<h3 class="sub-title wow pixFadeUp">Pricing Plan 
+						<select id="currency" style="width:10%">
+						<option value="USD" selected> $ USD</option>
+						<option value="CAD"> $ CAD</option>
+						<option value="GBP"> £ GBP</option>
+						<option value="MXN"> $ MXN</option>
+						<option value="INR"> ₹ INR</option>
+						<option value="EUR"> € EUR</option>
+						<option value="AED"> د.إ AED</option>
+
+					  </select></h3>
+					<h2 class="title wow pixFadeUp" data-wow-delay="0.3s">
+						Free Trial. No Payment Required.
+					</h2>
+				</div>
+
+				<nav class="pricing-tab wow pixFadeUp" data-wow-delay="0.4s">
+					<span class="tab-btn monthly_tab_title">
+						Monthly
+					</span>
+					<span class="pricing-tab-switcher"></span>
+					<span class="tab-btn annual_tab_title">
+						Annual
+					</span>
+				</nav>
+				
+
+				<div class="row advanced-pricing-table no-gutters wow pixFadeUp" data-wow-delay="0.5s">
+
+					<div class="col-lg-4">
+						<div class="pricing-table br-left">
+							<div class="pricing-header pricing-amount">
+								<div class="annual_price">
+									<h2 class="price" id="basicpricean">$0</h2>
+								</div>
+								<!-- /.annual_price -->
+
+								<div class="monthly_price">
+									<h2 class="price" id="basicpricemon">$0</h2>
+								</div>
+								<!-- /.monthly_price -->
+
+								<h3 class="price-title">BASICS</h3>
+								<p>Pay only for usage. For Startups.</p>
+							</div>
+							<!-- /.pricing-header -->
+
+							<ul class="price-feture">
+								<li class="have">4.5% of ad revenues generated by AutoPilot</li>
+								<li class="have">Maximum Charge of <span class="maxcap">$799 </span> per month</li>
+								<li class="have">Feedback request Emails</li>
+								<!-- <li class="have">Instant access to 3PL warehouses</li> -->
+								<li class="have">Sponsored Products</li>
+								<li class="not">Automated Keyword Miner</li>
+								<li class="not">Fully Automated Dayparting</li>
+								<li class="have">Shopify, Woocommerce Integration
+								<li>
+								<li class="have">Self Support & <br> Email Support</li>
+							</ul>
+
+							<div class="action text-center">
+								<a href="/account/register?plan=1" class="pix-btn btn-outline">Get Started</a>
+							</div>
+						</div>
+						<!-- /.pricing-table -->
+					</div>
+					<!-- /.col-lg-4 -->
+
+					<div class="col-lg-4">
+						<div class="pricing-table color-two">
+							<div class="pricing-header pricing-amount">
+								<div class="annual_price">
+									<h2 class="price" id="standpricean">$390</h2>
+								</div>
+								<!-- /.annual_price -->
+
+								<div class="monthly_price">
+									<h2 class="price" id="standpricemon">$39</h2>
+								</div>
+								<!-- /.monthly_price -->
+
+								<h3 class="price-title">STANDARD</h3>
+								<p>For growing Private Labels and Brands</p>
+							</div>
+							<!-- /.pricing-header -->
+
+							<ul class="price-feture">
+								<li class="have">+1.5% of ad revenues generated by AutoPilot</li>
+								<li class="have">Maximum Charge of <span class="maxcap">$799 </span> per month</li>
+								<li class="have">Feedback request Emails</li>
+								<!-- <li class="have">Instant access to 3PL warehouses</li> -->
+								<li class="have">Sponsored Products, Sponsored Display, Sponsored Brands</li>
+								<li class="have">Automated Keyword Miner</li>
+								<li class="have">Fully Automated Dayparting</li>
+								<li class="have">Shopify, Woocommerce Integration
+								<li>
+								<li class="have">Self Support. <br> Email & Chat Support</li>
+							</ul>
+
+							<div class="action text-center">
+								<a href="/account/register?plan=2" class="pix-btn btn-outline">Get Started</a>
+							</div>
+						</div>
+						<!-- /.pricing-table -->
+					</div>
+					<!-- /.col-lg-4 -->
+
+					<div class="col-lg-4">
+						<div class="pricing-table color-three">
+
+							<div class="pricing-header pricing-amount">
+								<div class="annual_price">
+									<h2 class="price" id="prempricean">$990</h2>
+								</div>
+								<!-- /.annual_price -->
+
+								<div class="monthly_price">
+									<h2 class="price" id="prempricemon">$99</h2>
+								</div>
+								<!-- /.monthly_price -->
+
+								<h3 class="price-title">PREMIUM</h3>
+								<p>For Large Enterprises and Brands</p>
+							</div>
+							<!-- /.pricing-header -->
+
+							<ul class="price-feture">
+								<li class="have">+0.75% of ad revenues generated by AutoPilot</li>
+								<li class="have">Maximum Charge of <span class="maxcap">$799 </span> per month</li>
+								<li class="have">Feedback request Emails</li>
+								<!-- <li class="have">Instant access to 3PL warehouses</li> -->
+								<li class="have">Sponsored Products, Sponsored Display, Sponsored Brands</li>
+								<li class="have">Automated Keyword Miner</li>
+								<li class="have">Fully Automated Dayparting</li>
+								<li class="have">Shopify, Woocommerce & Magento Integration
+								<li>
+								<li class="have">24x7 Email, Chat and Phone Support</li>
+							</ul>
+
+							<div class="action text-center">
+								<a href="/account/register?plan=3" class="pix-btn btn-outline">Get Started</a>
+							</div>
+						</div>
+						<!-- /.pricing-table -->
+					</div>
+					<!-- /.col-lg-4 -->
+
+
+				</div>
+				<!-- /.advanced-pricing-table -->
+			</div>
+			<!-- /.container -->
+
+			<div class="faq-section">
+				<div class="container">
+					<div class="section-title text-center">
+						<h3 class="sub-title wow pixFadeUp">FAQ</h3>
+						<h2 class="title wow pixFadeUp" data-wow-delay="0.3s">
+
+						</h2>
+					</div>
+					<!-- /.section-title -->
+					<div class="tabs-wrapper wow pixFadeUp" data-wow-delay="0.4s">
+						<ul class="nav faq-tabs" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="design-tab" data-toggle="tab" href="#design" role="tab"
+									aria-controls="design" aria-selected="true">
+									Amazon PPC</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="service-tab" data-toggle="tab" href="#service" role="tab"
+									aria-controls="service" aria-selected="false">
+									Agencies</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="general-tab" data-toggle="tab" href="#general" role="tab"
+									aria-controls="general" aria-selected="false">
+									Pricing</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="branding-tab" data-toggle="tab" href="#branding" role="tab"
+									aria-controls="branding" aria-selected="false">
+									Smart Fulfillment</a>
+							</li>
+						</ul>
+						<div class="tab-content" id="myTabContent">
+							<div class="tab-pane fade show active" id="design" role="tabpanel"
+								aria-labelledby="design-tab">
+								<div id="accordion" class="faq faq-two pixFade">
+									<div class="card active">
+										<div class="card-header" id="heading100">
+											<h5>
+												<button class="btn btn-link" data-toggle="collapse"
+													data-target="#collapse001" aria-expanded="false"
+													aria-controls="collapse001">
+													How is AiHello AutoPilot different from other tools?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse001" class="collapse show" aria-labelledby="heading100"
+											data-parent="#accordion">
+											<div class="card-body">
+												<p>
+													This is a First Class Full Automated platform. Just switch on
+													AutoPilot for a target ACoS
+													and our AI engine will automatically optimize bids daily, mine
+													keywords, transfer keywords between auto and manual campaigns and
+													boost bids depending on peak hours and off-peak hours. There is zero
+													configuration and no rule-sets required as our AI learns from your sales and
+													optimizes daily.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="heading200">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse100" aria-expanded="true"
+													aria-controls="collapse100">
+													How long does it take for the Amazon PPC automation to start show
+													positive results?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse100" class="collapse" aria-labelledby="heading200"
+											data-parent="#accordion">
+											<div class="card-body">
+												<p>
+													It takes anywhere from 7-14 days for you to start noticing positive
+													results. The system learns every day and becomes more efficient at
+													optimizing your keywords and placements.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="heading300">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse200" aria-expanded="false"
+													aria-controls="collapse200">
+													Can I see what the AI is doing? Is there a change log?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse200" class="collapse" aria-labelledby="heading300"
+											data-parent="#accordion">
+											<div class="card-body">
+												<p>
+													We have a visual change log of how the AI has beeen optimizing your
+													bids. You can view them by the day and the reason for the bid
+													optimization. </p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="heading400">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse300" aria-expanded="false"
+													aria-controls="collapse300">
+													Does AiHello AutoPilot handle automated keyword mining/harvesting?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse300" class="collapse" aria-labelledby="heading400"
+											data-parent="#accordion">
+											<div class="card-body">
+												<p>
+													Yes you can set the number of keywords to be automatically added to
+													your ad groups based on number of criteria. You can also set
+													keywords and search terms to be moved from AutoCampaigns to Manual
+													Campaigns </p>
+											</div>
+										</div>
+									</div>
+
+									<div class="card">
+										<div class="card-header" id="heading400">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse300" aria-expanded="false"
+													aria-controls="collapse300">
+													What does the Maximum Charge (in the pricing plan) mean?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse300" class="collapse" aria-labelledby="heading400"
+											data-parent="#accordion">
+											<div class="card-body">
+												<p>
+													We charge you success fees for revenues generated only on Campaigns that are on Autopilot.
+													The amount that we charge depends on the plan.
+													No matter what plan you choose, you have our assurance that we will never charge you success fees more than this Maximum Charge fees.
+												</p>
+												<p>
+													This pricing plan is beneficial to both small scale sellers as well as high volume sellers.
+													Instead of charging high flat fees, you only pay for successful revenues with our PPC Automation software. 
+												</p>
+												<p>
+													The Maximum Charge protects you from overpaying if you are a high volume seller.
+													 </p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="tab-pane fade" id="service" role="tabpanel" aria-labelledby="service-tab">
+								<div id="accordion-2" class="faq faq-two pixFade">
+									<div class="card active">
+										<div class="card-header" id="heading101">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse01" aria-expanded="false"
+													aria-controls="collapse01">
+													Is there a special price for Amazon Advertising PPC Ad agencies?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse01" class="collapse show" aria-labelledby="heading101"
+											data-parent="#accordion-2">
+											<div class="card-body">
+												<p>
+													Yes, our agencies have special pricing to manage all their account
+													and a discount on the success fees.
+													You can register and contact us via the internal ticket system or
+													just Drop us an email at agency@aihello.com </p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="heading201">
+											<h5>
+												<button class="btn btn-link" data-toggle="collapse"
+													data-target="#collapse101" aria-expanded="true"
+													aria-controls="collapse101">
+													How many Amazon PPC Ad Client accounts can I manage?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse101" class="collapse" aria-labelledby="heading201"
+											data-parent="#accordion-2">
+											<div class="card-body">
+												<p>
+													You can manage unlimited Amazon PPC Ad Client accounts with our
+													platform.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="heading301">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse201" aria-expanded="false"
+													aria-controls="collapse201">
+													Do you need all the client profiles in one account?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse201" class="collapse" aria-labelledby="heading301"
+											data-parent="#accordion-2">
+											<div class="card-body">
+												<p>
+													We can handle all the client profiles in one account or you can one
+													account per client and can switch between accounts with our account
+													switcher </p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="heading401">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse301" aria-expanded="false"
+													aria-controls="collapse301">
+													How many team members can we add to manage our client accounts?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse301" class="collapse" aria-labelledby="heading401"
+											data-parent="#accordion-2">
+											<div class="card-body">
+												<p>
+													You can add up to 25 team members. You can provide access to
+													specific client accounts to specific team members or you can give
+													all Amazon Ad accounts </p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="general" role="tabpanel" aria-labelledby="general-tab">
+								<div id="accordion-3" class="faq faq-two pixFade">
+									<div class="card active">
+										<div class="card-header" id="heading102">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse002" aria-expanded="false"
+													aria-controls="collapse002">
+													How many marketplaces are included for the price?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse002" class="collapse show" aria-labelledby="heading102"
+											data-parent="#accordion-3">
+											<div class="card-body">
+												<p>
+													All marketplaces are included in all packages. There is no extra
+													charge for adding and managing additional marketplaces
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="heading403">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse303" aria-expanded="false"
+													aria-controls="collapse303">
+													What is the Basics version and do I need credit card to use it?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse303" class="collapse" aria-labelledby="heading403"
+											data-parent="#accordion-3">
+											<div class="card-body">
+												<p>
+													The Basics version has no monthly commitment charges and you only
+													pay for the usage of the Automated Amazon PPC Software.
+													We offer 14 days no credit card trial after which you have to enter
+													your payment information.
+													You won't be charged anything for days you don't use the PPC
+													Automation </p>
+											</div>
+										</div>
+									</div>
+
+									<div class="card">
+										<div class="card-header" id="heading202">
+											<h5>
+												<button class="btn btn-link" data-toggle="collapse"
+													data-target="#collapse102" aria-expanded="true"
+													aria-controls="collapse102">
+													What is included in the monthly price?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse102" class="collapse" aria-labelledby="heading202"
+											data-parent="#accordion-3">
+											<div class="card-body">
+												<p>
+													In addition to Amazon PPC Ads automation, you will also have access
+													to inventory restocking forecasts, automated customer follow up
+													emails for Amazon,
+													automated customer review request, smart fulfillment for your brand
+													websites (shopify/woocommerce) and access to Third Party Warehouses
+													(3PL) in US and Canada </p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="heading303">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse203" aria-expanded="false"
+													aria-controls="collapse203">
+													Is there any payment information required for the free trial of
+													Amazon PPC Automation?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse203" class="collapse" aria-labelledby="heading303"
+											data-parent="#accordion-3">
+											<div class="card-body">
+												<p>
+													No. The free trial is absolutely free and does not require your
+													credit card or any payment information.
+													You can register and have your amazon ads on automation within few
+													minutes. </p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="tab-pane fade" id="branding" role="tabpanel" aria-labelledby="branding-tab">
+								<div id="accordion-4" class="faq faq-two pixFade">
+									<div class="card active">
+										<div class="card-header" id="heading10">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse00" aria-expanded="false"
+													aria-controls="collapse00">
+													What is smart fulfillment?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse00" class="collapse show" aria-labelledby="heading10"
+											data-parent="#accordion-4">
+											<div class="card-body">
+												<p>
+													Smart Fulfillment is fulfilling your orders from Shopify and
+													Woocommerce brand sites with your Amazon FBA Channel.
+													You can set configuration by country and sku to support fulfilling
+													your website orders from different countries via different Amazon
+													FBA marketplace.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="heading20">
+											<h5>
+												<button class="btn btn-link" data-toggle="collapse"
+													data-target="#collapse10" aria-expanded="true"
+													aria-controls="collapse10">
+													What platforms do you support?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse10" class="collapse" aria-labelledby="heading20"
+											data-parent="#accordion-4">
+											<div class="card-body">
+												<p>
+													We support Amazon, Shopify, Woocommerce integration.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="heading30">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse20" aria-expanded="false"
+													aria-controls="collapse20">
+													How quickly are the orders fulfilled?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse20" class="collapse" aria-labelledby="heading30"
+											data-parent="#accordion-4">
+											<div class="card-body">
+												<p>
+													Orders from Shopify and Woocommerce are fulfilled in realtime within
+													few seconds. </p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="heading40">
+											<h5>
+												<button class="btn btn-link collapsed" data-toggle="collapse"
+													data-target="#collapse30" aria-expanded="false"
+													aria-controls="collapse30">
+													What countries do you support for fulfilling my orders via Amazon
+													fulfillment system?
+												</button>
+											</h5>
+										</div>
+										<div id="collapse30" class="collapse" aria-labelledby="heading40"
+											data-parent="#accordion-4">
+											<div class="card-body">
+												<p>
+													US, Canada, UK, Whole of Europe. Note that except EU, we cannot ship
+													cross country with Amazon Fulfillment. </p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /.tabs-wrapper -->
+
+					<div class="btn-container text-center mt-40 wow pixFadeUp">
+						<a href="/account/register" class="pix-btn btn-outline">Register</a>
+					</div>
+					<!-- /.btn-container text-center -->
+
+				</div>
+				<!-- /.container -->
+			</div>
+			<!-- /.faq-section -->
+
+			<div class="scroll-circle wow pixFadeLeft">
+				<img src="media/background/circle8.png" data-parallax='{"y" : 130}' alt="amazon black friday ads automation forecasting bg">
+			</div>
+		</section>
+		<!-- /.pricing -->
+
+		<!--==================================-->
+		<!--=         Call To Action         =-->
+		<!--==================================-->
+		<section class="call-to-action">
+			<!-- <div class="overlay-bg"><img src="media/background/ellipse.png" alt="amazon ads acos sponsored brands fba "></div> -->
+			<div class="container">
+
+			
+
+				<div class="action-content text-center wow pixFadeUp">
+					<h2 class="title">
+						Amazon AMS & Sponsored Products
+					</h2>
+
+					<p>
+						The #1 PPC Solution for Brands, Sellers and Agencies
+					</p>
+
+					<a href="/account/register" class="pix-btn btn-light">Get Started Now</a>
+				</div>
+			</div>
+			<!-- /.container -->
+
+			<div class="scroll-circle">
+				<img src="media/background/circle13.png" data-parallax='{"y" : -130}' alt="amazon advertising ads ppc automation software background">
+			</div>
+			<!-- /.scroll-circle -->
+		</section>
+
+		<footer id="footer">
+			<div class="container">
+				<div class="footer-inner wow pixFadeUp">
+					<div class="row">
+						<div class="col-lg-3 col-md-6">
+							<div class="widget footer-widget">
+								<h3 class="widget-title">Partner Network</h3>
+								<ul class="footer-menu">
+									<li> <a target="_blank"
+											href="https://sellercentral.amazon.com/apps/store/dp/amzn1.sellerapps.app.5d5ca2a9-e069-4ec1-9dd7-ea35b0550d4c">
+											<img src="media/home/amazonspn.jpg"
+												alt="Amazon PPC Advertising Partner Network"></a></li>
+									<li><a href="https://appsumo.com/aihello-autopilot/" target="_blank">Get it on
+											AppSumo</a></li>
+
+								</ul>
+
+							</div>
+							<!-- /.widget footer-widget -->
+						</div>
+						<!-- /.col-lg-3 col-md-6 -->
+
+						<div class="col-lg-3 col-md-6">
+							<div class="widget footer-widget">
+								<h3 class="widget-title">Amazon Store Network</h3>
+
+								<ul class="footer-menu">
+									<li> <a target="_blank"></a> </li>
+									<li><a target="_blank"
+											href="https://sellercentral.amazon.com/apps/store/dp/amzn1.sellerapps.app.5d5ca2a9-e069-4ec1-9dd7-ea35b0550d4c">AiHello
+											Amazon App US</a></li>
+									<li><a target="_blank"
+											href="https://sellercentral.amazon.co.uk/apps/store/dp/amzn1.sellerapps.app.5d5ca2a9-e069-4ec1-9dd7-ea35b0550d4c">AiHello
+											Amazon App Europe</a></li>
+									<li><a target="_blank"
+											href="https://sellercentral.amazon.sg/apps/store/dp/amzn1.sellerapps.app.5d5ca2a9-e069-4ec1-9dd7-ea35b0550d4c">AiHello
+											Amazon App Far East</a></li>
+									<li><a target="_blank"
+											href="https://sellercentral.amazon.com/apps/store/dp/amzn1.sellerapps.app.928dbbf8-4345-4200-b47b-c8db09d40496">AiHello
+											Amazon Smart Fulfillment</a></li>
+
+
+
+								</ul>
+							</div>
+							<!-- /.widget footer-widget -->
+						</div>
+						<!-- /.col-lg-3 col-md-6 -->
+
+						<div class="col-lg-3 col-md-6">
+							<div class="widget footer-widget">
+								<!-- <h3 class="widget-title">Digital Experience</h3> -->
+
+
+							</div>
+							<!-- /.widget footer-widget -->
+						</div>
+						<!-- /.col-lg-3 col-md-6 -->
+
+						<div class="col-lg-3 col-md-6">
+							<div class="widget footer-widget">
+								<h3 class="widget-title">Our Address</h3>
+
+								<p>
+									100 College St, Toronto, M5G 1LS <br>
+									Canada
+								</p>
+
+								<ul class="footer-social-link">
+									<li><a href="https://www.facebook.com/aihellos" target="_blank"><i
+												class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://twitter.com/aihellos" target="_blank"><i
+												class="fab fa-twitter"></i></a></li>
+									<li><a href="https://www.linkedin.com/company/aihellos/" target="_blank"> <i
+												class="fab fa-linkedin-in"></i></a></li>
+								</ul>
+							</div>
+							<!-- /.widget footer-widget -->
+						</div>
+						<!-- /.col-lg-3 col-md-6 -->
+					</div>
+					<!-- /.row -->
+
+				</div><!-- /.footer-inner -->
+
+				<div class="site-info">
+					<div class="copyright">
+						<p>© 2021 All Rights Reserved <a href="http://www.aihello.com" target="_blank">AiHello</a></p>
+					</div>
+
+					<ul class="site-info-menu">
+						<li><a href="./pages/privacy">Privacy & Policy.</a></li>
+						<li><a href="./pages/contact-us">Contact us</a></li>
+						<li><a href="./pages/tos">Terms And Conditions</a></li>
+					</ul>
+				</div><!-- /.site-info -->
+			</div><!-- /.container -->
+		</footer><!-- /#footer -->
+
+
+	</div><!-- /#site -->
+
+	<!-- Dependency Scripts -->
+	<script src="dependencies/jquery/jquery.min.js"></script>
+	<script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+	<script src="dependencies/swiper/js/swiper.min.js"></script>
+	<script src="dependencies/jquery.appear/jquery.appear.js"></script>
+	<script src="dependencies/wow/js/wow.min.js"></script>
+	<script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+	<script src="dependencies/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="dependencies/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="dependencies/jquery.parallax-scroll/js/jquery.parallax-scroll.js"></script>
+
+
+	<!-- Site Scripts -->
+	<script src="assets/js/header.js"></script>
+	<script src="assets/js/retina.min.js"></script>
+	<script src="assets/js/home.js"></script>
+
+
+
+	<script>
+		
+		
+		$('#currency').change(function(){
+
+			var selectedCurrency=$(this).val();
+switch(selectedCurrency)
+{
+case "USD":
+$('.maxcap').html("$799");
+$('#basicpricean').html("$0");
+$('#basicpricemon').html("$0");
+$('#standpricean').html("$390");
+$('#standpricemon').html("$39");
+$('#prempricean').html("$990");
+$('#prempricemon').html("$99");
+	break;
+	case "CAD":
+	$('#basicpricean').html("$0");
+$('#basicpricemon').html("$0");
+	$('.maxcap').html("$1000");
+$('#standpricean').html("$450");
+$('#standpricemon').html("$45");
+$('#prempricean').html("$1250");
+$('#prempricemon').html("$125");
+	break;
+	case "GBP":
+	$('#basicpricean').html("£0");
+$('#basicpricemon').html("£0");
+	$('.maxcap').html("£550");
+$('#standpricean').html("£350");
+$('#standpricemon').html("£35");
+$('#prempricean').html("£750");
+$('#prempricemon').html("£75");
+	break;
+	case "MXN":
+	$('#basicpricean').html("$0");
+$('#basicpricemon').html("$0");
+	$('.maxcap').html("$16,200");
+$('#standpricean').html("$7000");
+$('#standpricemon').html("$700");
+$('#prempricean').html("$20,000");
+$('#prempricemon').html("$2000");
+	break;
+	case "INR":
+	$('#basicpricean').html("₹0");
+$('#basicpricemon').html("₹0");
+	$('.maxcap').html("₹55,000");
+$('#standpricean').html("₹25000");
+$('#standpricemon').html("₹2500");
+$('#prempricean').html("₹70000");
+$('#prempricemon').html("₹7000");
+	break;
+	case "EUR":
+	$('#basicpricean').html("€0");
+$('#basicpricemon').html("€0");
+	$('.maxcap').html("€650");
+$('#standpricean').html("€350");
+$('#standpricemon').html("€35");
+$('#prempricean').html("€750");
+$('#prempricemon').html("€75");
+	break;
+	case "AED":
+	$('#basicpricean').html("د.إ0");
+$('#basicpricemon').html("د.إ20");
+	$('.maxcap').html("د.إ2980");
+$('#standpricean').html("د.إ1400");
+$('#standpricemon').html("د.إ140");
+$('#prempricean').html("د.إ3500");
+$('#prempricemon').html("د.إ350");
+	break;
+	default:
+	$('.maxcap').html("$799");
+$('#basicpricean').html("$0");
+$('#basicpricemon').html("$0");
+$('#standpricean').html("$390");
+$('#standpricemon').html("$39");
+$('#prempricean').html("$990");
+$('#prempricemon').html("$99");
+	break;
+
+}
+
+});
+
+		$(document).ready(function () {
+			$('.ba-slider').each(function () {
+				var cur = $(this);
+				
+				var width = cur.width() + 'px';
+				cur.find('.resize img').css('width', width);
+				
+				drags(cur.find('.handle'), cur.find('.resize'), cur);
+			});
+		});
+
+		
+		
+		$(window).resize(function () {
+			$('.ba-slider').each(function () {
+				var cur = $(this);
+				var width = cur.width() + 'px';
+				cur.find('.resize img').css('width', width);
+			});
+		});
+
+		function drags(dragElement, resizeElement, container) {
+
+			
+			dragElement.on('mousedown touchstart', function (e) {
+
+				dragElement.addClass('draggable');
+				resizeElement.addClass('resizable');
+
+				
+				var startX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;
+
+				
+				var dragWidth = dragElement.outerWidth(),
+					posX = dragElement.offset().left + dragWidth - startX,
+					containerOffset = container.offset().left,
+					containerWidth = container.outerWidth();
+
+				
+				minLeft = containerOffset + 10;
+				maxLeft = containerOffset + containerWidth - dragWidth - 10;
+
+				
+				dragElement.parents().on("mousemove touchmove", function (e) {
+
+					
+					var moveX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;
+
+					leftValue = moveX + posX - dragWidth;
+
+					
+					if (leftValue < minLeft) {
+						leftValue = minLeft;
+					} else if (leftValue > maxLeft) {
+						leftValue = maxLeft;
+					}
+
+					
+					widthValue = (leftValue + dragWidth / 2 - containerOffset) * 100 / containerWidth + '%';
+
+					
+					
+					$('.draggable').css('left', widthValue).on('mouseup touchend touchcancel', function () {
+						$(this).removeClass('draggable');
+						resizeElement.removeClass('resizable');
+					});
+					$('.resizable').css('width', widthValue);
+				}).on('mouseup touchend touchcancel', function () {
+					dragElement.removeClass('draggable');
+					resizeElement.removeClass('resizable');
+				});
+				e.preventDefault();
+			}).on('mouseup touchend touchcancel', function (e) {
+				dragElement.removeClass('draggable');
+				resizeElement.removeClass('resizable');
+			});
+		}
+
+
+
+	</script>
+
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89955167-3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-89955167-3');
+	</script>
+
+	<!-- Start of HubSpot Embed Code -->
+	<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5966549.js"></script>
+	<!-- End of HubSpot Embed Code -->
+
+
+	<!-- Clarity tracking code for https://www.aihello.com/ -->
+	<script>
+		(function (c, l, a, r, i, t, y) {
+			c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+			t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+			y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+		})(window, document, "clarity", "script", "4j8njqen5c");
+	</script>
+
+
+
+</body>
+
+</html>
