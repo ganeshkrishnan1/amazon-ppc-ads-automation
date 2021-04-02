@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g id="E">
+	<g id="change1_1"><rect x="486" y="45" fill="#FFFFFF" width="15" height="410"></rect></g>
+</g>
+<g id="W">
+	<g id="change1_2"><rect x="-1" y="45" fill="#FFFFFF" width="15" height="410"></rect></g>
+</g>
+<g id="N">
+	<g id="change1_3"><rect x="45" y="-1" fill="#FFFFFF" width="410" height="15"></rect></g>
+</g>
+<g id="S">
+	<g id="change1_4"><rect x="45" y="486" fill="#FFFFFF" width="410" height="15"></rect></g>
+</g>
+<g id="NE">
+	<g id="change1_5"><polygon fill="#FFFFFF" points="486,14 486,45 501,45 501,-1 455,-1 455,14 	"></polygon></g>
+</g>
+<g id="NW">
+	<g id="change1_6"><polygon fill="#FFFFFF" points="14,14 45,14 45,-1 -1,-1 -1,45 14,45 	"></polygon></g>
+</g>
+<g id="SE">
+	<g id="change1_7"><polygon fill="#FFFFFF" points="486,486 455,486 455,501 501,501 501,455 486,455 	"></polygon></g>
+</g>
+<g id="SW">
+	<g id="change1_8"><polygon fill="#FFFFFF" points="14,486 14,455 -1,455 -1,501 45,501 45,486 	"></polygon></g>
+</g>
+</svg>

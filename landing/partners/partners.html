@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Customized order fulfillment for e-commerce that connects FBA, our partner warehouses and your own warehouse in one powerful platform">
+    <meta name="keywords" content="Shopify Inventory management, fulfillment for Shopify orders, integration for Shopify and FBA, automated order fulfillment, Amazon FBA,
+Automate Amazon FBA shipping, Shopify App Store, Shopify orders">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <title>Our Partners</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+        var AMBASSADOR_API_KEY = '66cb5a5aed250de8ab95b61bf2b0cad0';
+    </script>
+
+
+    <style>
+        .embedded-ambassador-form {
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Tahoma', sans-serif;
+        }
+
+        .embedded-ambassador-form h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .embedded-ambassador-form .form-control {
+            padding: 6px 12px;
+            border: 1px solid #c4cdd5;
+            font-size: 14px;
+            line-height: 20px;
+            border-radius: 3px;
+            font-weight: 300;
+            position: relative;
+            z-index: 20;
+            width: 100%;
+            margin: 0;
+            letter-spacing: 1px;
+            display: block;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+        }
+
+        .embedded-ambassador-form .form-group {
+            margin-bottom: 15px;
+        }
+
+        .embedded-ambassador-form .form-group label {
+            display: block;
+            max-width: 100%;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .embedded-ambassador-form input,
+        .embedded-ambassador-form select,
+        .embedded-ambassador-form textarea {
+            display: block;
+            width: 100%;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            outline: 0;
+        }
+
+        .embedded-ambassador-form input,
+        .embedded-ambassador-form select {
+            height: 32px;
+        }
+
+        .embedded-ambassador-form textarea {
+            height: auto;
+        }
+
+        .embedded-ambassador-form input:focus,
+        .embedded-ambassador-form select:focus,
+        .embedded-ambassador-form textarea:focus {
+            border: 2px solid #5c6ac4;
+            box-shadow: none;
+            outline: 0;
+        }
+
+        .embedded-ambassador-form label small {
+            font-size: 85%;
+            color: #a94442;
+            float: right !important;
+        }
+
+        .embedded-ambassador-form #error,
+        .embedded-ambassador-form #job-description-error {
+            font-size: 85%;
+            color: #a94442;
+            font-weight: bold;
+        }
+
+        .embedded-ambassador-form .btn-merchant {
+            outline: 0;
+            min-height: initial;
+            transition: all 0.3s ease-in-out;
+            border-radius: 2px;
+            box-shadow: none;
+            text-shadow: none;
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            background: linear-gradient(to bottom, #6371c7, #5563c1);
+            border-color: #3f4eae;
+            color: #ffffff;
+            fill: #ffffff;
+        }
+
+
+        body h3 {
+            font-size: 1.3em;
+        }
+
+        #pform {
+
+            margin: auto;
+            padding: 15px;
+            background-color: #F8FAFB;
+            text-align: center;
+        }
+
+        #form-intro {
+            text-align: center;
+            margin: auto;
+            padding: 15px;
+
+
+        }
+
+        #title {
+
+            padding-top: 120px;
+            text-align: center;
+            color: #00B483;
+        }
+
+        #welcome {
+            margin-top: 40px;
+            padding: 15px;
+            text-align: center;
+            width: 600px;
+            text-align: center;
+
+        }
+
+        #welcome2 {
+            margin-top: 20px;
+
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 30px;
+        }
+
+        #storetasker {
+            margin-bottom: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        #storetasker-logo {
+            text-align: center;
+            clear: both;
+
+        }
+
+
+
+
+        .navbar-brand img {
+            padding-right: 100px;
+
+            height: 35px;
+        }
+
+        footer {
+            width: 100%;
+        }
+
+        .footer-info {
+            padding: 50px;
+            color: #fff;
+        }
+
+        .footer-info-link {
+            text-decoration: none;
+
+        }
+
+
+        ul.footer-info-menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            font-size: 1em;
+
+
+        }
+
+        ul.footer-info-menu a {
+            color: #fff;
+        }
+
+        hr {
+            border-top: 1px solid dimgrey;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        #copyright {
+            color: dimgrey;
+
+            text-align: center;
+        }
+
+        #heart {
+            text-align: center;
+            color: dimgrey;
+
+        }
+
+
+        #description {
+            text-align: left;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        blockquote {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .partners-img {
+
+            text-align: center;
+
+        }
+
+
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+
+
+        #storetasker-logo img {
+            width: 80%;
+            height: auto;
+        }
+
+
+        #item {
+            padding-top: 30px;
+        }
+
+
+        /* When the width is between 400px and 800px  - change the appearance of footer menu */
+
+        @media screen and (min-width: 400px) {
+            .footer-info {
+                text-align: center;
+            }
+        }
+
+        @media screen and (min-width: 600px) {
+            .footer-info {
+                text-align: left;
+            }
+        }
+
+        @media screen and (min-width: 800px) {
+            .footer-info {
+                text-align: left;
+            }
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+
+    <!-- start TOP NAVIGATION -->
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="https://www.aihello.com/"><img src="images/logo.png"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://www.aihello.com/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.aihello.com/features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.aihello.com/pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.aihello.com/resources/">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.aihello.com/login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end TOP NAVIGATION -->
+
+
+
+    <!-- start WELCOME MESSAGE -->
+
+    <div class="row">
+
+        <h2 class="col-sm-12" id="title">AiHello Partnerships</h2>
+        <p class="col-sm-12 partners-img"><img src="images/partners.png"></p>
+        <h3 class="col-sm-12" id="welcome">
+            We have partnered with some of the best names in the industry <br>to help you achieve your goals
+        </h3>
+    </div>
+
+    <!-- end WELCOME MESSAGE -->
+
+    <!-- start WELCOME2 MESSAGE -->
+
+    <div class="col-sm-12" id="welcome2">
+        <div>
+            <p>At AiHello, we believe in a global ecommerce market open to brands of all sizes. We focus on enabling and
+                automating global logistics for e-commerce. That includes everything from demand forecasting to order
+                fulfillment directly to your consumers. As you embark on this journey, we recognize that you may need
+                additional assistance in other areas of your business. With that in mind, we have partnered with some of
+                the best names in the industry to help you achieve your goals. Below you will see a brief description of
+                what each service provides along with their contact information.</p>
+            <p>If you have any questions or if you are interested in becoming an AiHello Partner, please reach out at <a
+                    href="mailto:partnerships@aihello.com">partnerships@aihello.com</a></p>
+            <hr>
+        </div>
+    </div>
+
+    <!-- end WELCOME2 MESSAGE -->
+
+
+    <!-- start FORM AND TEXT BESIDE -->
+
+    <div class="row" id="storetasker">
+
+        <div class="col-sm-6" id="form-intro">
+            <p class="col-sm-12" id="description">If you are a Shopify customer, be sure to explore Storetasker's vast
+                database of amazing experts ready to help you with anything related to design, development or marketing.
+            </p>
+
+            <p class="col-sm-12" id="storetasker-logo"><img src="images/storetasker.png"></p>
+
+        </div>
+
+
+        <div class="col-sm-6" id="pform">
+            <div class="embedded-ambassador-form ">
+                <div class="form-group">
+                    <label>Email address: <small id="merchant-email-error" style="display: none;">Email address is
+                            required.</small></label>
+                    <input id="merchant-email" placeholder="Give us your email" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Project title: <small id="job-title-error" style="display: none;">Project title is
+                            required.</small></label>
+                    <input id="job-title" placeholder="Give your project request a title..." class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Project category: <small id="job-category-error" style="display: none;">Category is
+                            required.</small></label>
+                    <select id="job-category" class="form-control">
+                        <option value="" selected="selected">Select a category</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Project description: - <a
+                            href="https://blog.storetasker.com/2017/02/11/7-tips-for-submitting-shopify-job-requests-that-experts-love/"
+                            target="_blank">Click here</a> for tips on submitting a great project brief.</label>
+                    <p id="job-description-error" style="display: none;">Project description is required.</p>
+                    <textarea id="job-description"
+                        placeholder="Describe your Shopify project request here. Be very clear and descriptive for a fast and accurate estimate."
+                        class="form-control" rows="8"></textarea>
+                </div>
+
+                <div id="error" style="display: none;"></div>
+
+                <button id="job-submit" class="btn-merchant" onclick="postJob()">Post Project Request</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end FORM AND TEXT BESIDE -->
+
+
+    <!-- start FOOTER -->
+
+    <footer class="bg-dark">
+
+
+        <div class="row  footer-info">
+
+            <div class="col-sm-3">
+                <p id="item">PRODUCT</p>
+                <ul class="footer-info-menu">
+                    <li class="footer-info-item">
+                        <a class="footer-info-link" href="https://www.aihello.com/pages/features">How it Works</a>
+                    </li>
+                    <li class="footer-info-item">
+                        <a class="footer-info-link" href="https://www.aihello.com/pages/pricing">Pricing</a>
+                    </li>
+                    <li class="footer-info-item">
+                        <a class="footer-info-link" href="https://www.aihello.com/pages/features">Features</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col-sm-3">
+                <p id="item">SUPPORT</p>
+                <ul class="footer-info-menu">
+                    <li class="footer-info-item">
+                        <a class="footer-info-link" href="https://www.aihello.com/resources/documentation/">Support
+                            Center</a>
+                    </li>
+                    <li class="footer-info-item">
+                        <a class="footer-info-link" href="https://www.aihello.com/resources/video-tutorials/">Video
+                            Tutorials</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col-sm-3">
+                <p id="item">COMPANY</p>
+                <ul class="footer-info-menu">
+                    <li class="footer-info-item">
+                        <a class="footer-info-link" href="#">About Us</a>
+                    </li>
+                    <li class="footer-info-item">
+                        <a class="footer-info-link" href="https://www.aihello.com/resources/">Blog</a>
+                    </li>
+                    <li class="footer-info-item">
+                        <a class="footer-info-link" href="https://www.aihello.com/pages/contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col-sm-3">
+                <p id="item">PARTNERS</p>
+                <ul class="footer-info-menu">
+                    <li class="footer-info-item">
+                        <a class="footer-info-link" href="#">Partner with Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row">
+            <div class="col-sm-4" id="copyright">
+                <p>Copyright &copy 2019 AiHello </p>
+            </div>
+            <div class="col-sm-4" id="heart">
+                <p>Made with &hearts; in Toronto</p>
+            </div>
+            <div class="col-sm-4" id="heart">
+                <p>
+
+                    <!-- Add font awesome icons -->
+                    <a href="https://www.facebook.com/aihellos/" class="fab fa-facebook"></a>
+                    <a href="https://www.youtube.com/channel/UCVASNUlKjKHGhOhu8SXxB5Q?view_as=subscriber"
+                        class="fab fa-youtube"></a>
+                    <a href="https://www.instagram.com/aihellos/" class="fab fa-instagram"></a></p>
+
+
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- end FOOTER -->
+
+
+
+
+    <script>
+        var postJob;
+        (function () {
+            function getAjax(url, success, error) {
+                var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+                xhr.open('GET', url);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState > 3 && xhr.status == 200) {
+                        success(JSON.parse(xhr.responseText));
+                    }
+                };
+                xhr.onerror = function () {
+                    error(JSON.parse(xhr.responseText));
+                };
+                xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                xhr.send();
+                return xhr;
+            }
+
+            function postAjax(url, data, success, error) {
+                var params = typeof data == 'string' ? data : Object.keys(data).map(
+                    function (k) {
+                        return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
+                    }
+                ).join('&');
+
+                var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+                xhr.open('POST', url);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState > 3 && xhr.status == 200) {
+                        success(JSON.parse(xhr.responseText));
+                    } else if (xhr.readyState > 3 && xhr.status == 400) {
+                        error(JSON.parse(xhr.responseText));
+                    }
+                };
+                xhr.onerror = function () {
+                    error(JSON.parse(xhr.responseText));
+                };
+                xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                xhr.send(params);
+                return xhr;
+            }
+
+            function checkFields(fieldData) {
+                var fields = [
+                    'merchant-email',
+                    'job-title',
+                    'job-category',
+                    'job-description'
+                ];
+                var hasError = false;
+                for (var iField in fields) {
+                    var field = fields[iField];
+                    var errorEle = document.getElementById(field + '-error');
+                    errorEle.style.display = 'none';
+                    if (!fieldData[field]) {
+                        errorEle.style.display = 'block';
+                        hasError = true;
+                    }
+                }
+                return !hasError;
+            }
+
+            postJob = function () {
+                var merchantEmail = document.getElementById('merchant-email').value;
+                var title = document.getElementById('job-title').value;
+                var categoryId = document.getElementById('job-category').value;
+                var description = document.getElementById('job-description').value;
+
+                var fieldData = {
+                    'merchant-email': merchantEmail,
+                    'job-title': title,
+                    'job-category': categoryId,
+                    'job-description': description
+                };
+                if (!checkFields(fieldData)) return;
+
+                var data = {
+                    jobTitle: title,
+                    jobCategory: categoryId,
+                    jobDescription: description,
+                    merchantEmail: merchantEmail,
+                    ambassadorApiKey: AMBASSADOR_API_KEY
+                };
+
+                var generalErrorEle = document.getElementById('error');
+                generalErrorEle.style.display = 'none';
+
+                postAjax('https://app.storetasker.com/api/v1/marketing/ambassadors/jobs/embedded', data,
+                    function (res) {
+                        if (!res.token) {
+                            generalErrorEle.style.display = 'block';
+                            generalErrorEle.innerHTML = '<p>Unable to post job...</p>';
+                        }
+                        window.location.href = 'https://app.storetasker.com?absr_token=' + res.token +
+                            '&rfsn=' + res.rfsn;
+                    },
+                    function (err) {
+                        var errorMessage = '';
+                        if (err.fields) {
+                            for (var iError in err.fields) {
+                                var error = err.fields[iError][0];
+                                errorMessage += '<p>' + error + '</p>';
+                            }
+                        } else {
+                            errorMessage = '<p>' + err.message + '</p>';
+                        }
+                        generalErrorEle.style.display = 'block';
+                        generalErrorEle.innerHTML = errorMessage;
+                    });
+            }
+
+
+            // load project categories
+            getAjax('https://app.storetasker.com/api/v1/marketing/job-categories', function (res) {
+                var optionsHTML = '<option value="" selected="selected">Select a Category</option>' +
+                    "\r\n";
+                for (var iCategory in res) {
+                    var category = res[iCategory];
+                    optionsHTML += '<option value="' + category.id + '">' + category.display_name +
+                        '</option>' + "\r\n";
+                }
+                var catEle = document.getElementById('job-category');
+                catEle.innerHTML = optionsHTML;
+            }, function (err) {
+                var generalErrorEle = document.getElementById('error');
+                generalErrorEle.style.display = 'block';
+                generalErrorEle.innerHTML = '<p>Unable to load categories.</p>';
+            });
+        })();
+    </script>
+
+
+
+
+</body>
